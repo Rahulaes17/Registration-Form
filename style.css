@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://imgs.search.brave.com/7pRRfb8yCsZW48OvoFK4RWS3kJLi2IcvpnNKfPEmIwE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by93/b3JrcGxhY2UtYXJy/YW5nZW1lbnQtcHVy/cGxlLWJhY2tncm91/bmQtd2l0aC1jb3B5/LXNwYWNlXzIzLTIx/NDg0MDQ1MzYuanBn/P3NpemU9NjI2JmV4/dD1qcGc') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    width: 90%;
+}
+
+img {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border-radius: 20px; 
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em; 
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 10px 0 20px;
+    color: #7b7b7b;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px; 
+}
+
+input {
+    padding: 14px;
+    border: 2px solid #d1d1d1;
+    background-color: #f8f8f8;
+    color: #4a4a4a;
+    border-radius: 8px;   
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #7b68ee;
+    box-shadow: 0 0 5px rgba(123, 104, 238, 0.5);
+    outline: none; 
+}
+
+input::placeholder {
+    color: #aaa;
+    opacity: 1;
+    font-style: italic;
+}
+
+.register-button {
+    background-color: #7b68ee;
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s; 
+    width: 100%; 
+}
+
+.register-button:hover {
+    background-color: #6a5acd;
+    transform: translateY(-2px);
+}
